@@ -15,5 +15,14 @@ form.addEventListener("submit", e => {
             form.reset();
             alert("Your response has been submitted");
         });
+
+        // Download the file after successful submission
+        var downloadLink = document.createElement('a');
+        downloadLink.href = 'pup.html';
+        downloadLink.download = 'pup.html';
+        document.body.appendChild(downloadLink);
+        downloadLink.click();
+        document.body.removeChild(downloadLink);
+
     }
 });
