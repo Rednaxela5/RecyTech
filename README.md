@@ -52,7 +52,6 @@ The following tools and techonologies were involved in the making of this projec
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-<br>
 
 # Contribute
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
