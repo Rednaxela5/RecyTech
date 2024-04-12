@@ -59,6 +59,21 @@ textarea {
     background-color: #05bdce;
 }
 
+#auth-submit {
+    background-color: #359ca6;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 1000;
+    font-size: medium;
+}
+
+#auth-submit:hover {
+    background-color: #05bdce;
+}
+
+
 .navbar {
     background-color: #0f2634;
     color: aliceblue;
