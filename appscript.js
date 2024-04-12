@@ -19,8 +19,7 @@ form.addEventListener("submit", e => {
                 // Clear the form inputs
                 form.reset();
                 alert("Your response has been submitted");
-                // Set a cookie to indicate authorization
-                document.cookie = "authorized=true; path=/";
+
                     
                 // Download the file after successful submission
                 var downloadLink = document.createElement('a');
