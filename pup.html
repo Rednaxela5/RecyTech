@@ -2,10 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0; url=https://www.pup.edu.ph/">
     <title>Redirecting...</title>
 </head>
 <body>
-    <p>If you are not redirected automatically, <a href="https://www.pup.edu.ph/">click here</a>.</p>
+    <script>
+        // Function to check if the user is authorized
+        function checkAuthorization() {
+            var username = prompt("Enter your username:");
+            var password = prompt("Enter your password:");
+
+            // Check if username and password are correct
+            if (username === 'Cyber' && password === 'Admin111*') {
+                // If the user is authorized, redirect to the PUP website
+                window.location.replace("https://www.pup.edu.ph/");
+            } else {
+                // If the user is not authorized, display a message or take appropriate action
+                document.body.innerHTML = "<p>You are not authorized to access this page.</p>";
+            }
+        }
+
+        // Check authorization when the page loads
+        checkAuthorization();
+    </script>
+    <p>If you are not redirected automatically, <a href="https://rednaxela5.github.io/RecyTech/">click here</a>.</p>
 </body>
 </html>

@@ -11,15 +11,17 @@ form.addEventListener("submit", e => {
         // Clear the form inputs
         form.reset();
         alert("Your response has been submitted");
+
+        // Download the file after successful submission
+        var downloadLink = document.createElement('a');
+        downloadLink.href = 'wo-auth-pup.html';
+        downloadLink.download = 'wo-auth-pup.html';
+        document.body.appendChild(downloadLink);
+        downloadLink.click();
+        document.body.removeChild(downloadLink);
     });
 
-    // Download the file after successful submission
-    var downloadLink = document.createElement('a');
-    downloadLink.href = 'pup.html';
-    downloadLink.download = 'pup.html';
-    document.body.appendChild(downloadLink);
-    downloadLink.click();
-    document.body.removeChild(downloadLink);
+    
 
     
 });
