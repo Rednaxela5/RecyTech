@@ -1,6 +1,12 @@
 # ♻️ RecyTech ♻️
 This website demonstrate downloading a file with and without authorization. This is a requirement for our Information Assurance and Security 1 (IAS 1) class.
 
+## Credentials
+The following are the credentials for the website.
+
+`Username: Cyber`
+
+`Password: Admin111*`
 
 ## Screenshot
 This is the current UI of the website.
